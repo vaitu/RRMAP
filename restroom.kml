@@ -81,8 +81,7 @@
 		<open>1</open>
 		<Placemark>
 			<name>パオレ</name>
-			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0079.png"/  width=550>
-
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/rHRCRwr_4nGfZqjirQqtRTZxs17KWt4xYSoY_dLnCo62W6mSdrz-o1sp-IYKEBTu8f5v1swYPl2qKey0u3axWAn0TPfQaeIGjWssb5abyQKFi9PV_DoxTWVvXmwWBtV9SbATfkB--_n5haJht-wFSgPS5l8NBA80Z4DlpErp1iI7PRCjXWZzfVZoATg-EayrIh8V5IAp96IRcHS8HGGSSwYk3H2EBlrzdXjb1pDDsRmwgOX0R7tLt3FVrnFX6042DBmAw4JYb-OdrI6gFNLotvT6pLOJEAcXla9MW-8NDTJWXgsqsMtmnErYvk0oafjNy33WFtD5HC-g_47Haa3IkNRNaABTtv7y7bIEuRn7mpdVlG31aflf5pn4Mmokd3EHI09tqlYaMhq5-dR2QOvsREg3IlaiIBRC_JQJHc3O2yzpfl2EToBAEXkaRAMJYBTPXShkqMl68J6Urj-vKtxoV4LBnjrbWF6pKKWE7oVIyd1WRC790UoKKMgHCjvsLhlxeoi4X2_gRKj9haKwMrtuUsnxhrnyoqdAW3XFZ30VTmleaX9-Jbv6yaBTP4Pi96mPb-61T21Sd3ch3tqmTyuWBO0vaXJrG7E=s709-no"/  width=550>
 <div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
@@ -102,7 +101,7 @@
 				<range>308.8085788226093</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3792426452369,35.61414682478864,0</coordinates>
@@ -171,7 +170,7 @@
 		</Placemark>
 		<Placemark>
 			<name>fab南大沢</name>
-			<description><![CDATA[<img src="https://lh3.googleusercontent.com/gMvjM1j_P1Fdq3GYNau_Tu9UXUTlB6pqrfqbLaKv69j6I7v0Cu8EMSSj31GSPLcMIF79BY1crSlKneRJSYW_9T9smY0wF64q8Eg9_9_ynGO5X7SdXO0Bd7F_er3_IjNQep5a_OHCZfTfvemOzEIzhKmC_WdysOc2TA-f6waa74Ts0FHL1lH1Ptgh21j8XZwSvaZslKZQFkF6QWlxyKZrYzDh5u6QtXBNc-YokmRQewgN__mxykDH2OOND3fcruOCFJpPSmcvLFVWe8u1e_nzIrnQMnuBd-x1f9pK2hjA2dc9CdJh-pVc9Kv0ul0UV1-X1kMVbOPQogGv2iQMgis9_MBxYVtNvVf7xDzNGXhfrpT_bCTJtKLVSfcMQtE6ErYFi7_eHY-6-0bF8oOnBocYbXFywh0hX7ddysFna9alYewONzLWXWvTCr-OdnYNP8XyaSA4KBlb6rKCXGVtBfKYKCDQSxDW0WPcXF2rBaWFUkcg7ceggdb1tTKN4iEcyXPtzQ6OyC0aMJiayOmc0y-jUV64FKHUXo0cVwTsWhSICEaHGkWm0jyuy4wFpB50PUAL9GEl0pK1-DE1FJGkENkRybwsZFGC_-A=w390-h391-no"/>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/gMvjM1j_P1Fdq3GYNau_Tu9UXUTlB6pqrfqbLaKv69j6I7v0Cu8EMSSj31GSPLcMIF79BY1crSlKneRJSYW_9T9smY0wF64q8Eg9_9_ynGO5X7SdXO0Bd7F_er3_IjNQep5a_OHCZfTfvemOzEIzhKmC_WdysOc2TA-f6waa74Ts0FHL1lH1Ptgh21j8XZwSvaZslKZQFkF6QWlxyKZrYzDh5u6QtXBNc-YokmRQewgN__mxykDH2OOND3fcruOCFJpPSmcvLFVWe8u1e_nzIrnQMnuBd-x1f9pK2hjA2dc9CdJh-pVc9Kv0ul0UV1-X1kMVbOPQogGv2iQMgis9_MBxYVtNvVf7xDzNGXhfrpT_bCTJtKLVSfcMQtE6ErYFi7_eHY-6-0bF8oOnBocYbXFywh0hX7ddysFna9alYewONzLWXWvTCr-OdnYNP8XyaSA4KBlb6rKCXGVtBfKYKCDQSxDW0WPcXF2rBaWFUkcg7ceggdb1tTKN4iEcyXPtzQ6OyC0aMJiayOmc0y-jUV64FKHUXo0cVwTsWhSICEaHGkWm0jyuy4wFpB50PUAL9GEl0pK1-DE1FJGkENkRybwsZFGC_-A=w390-h391-no"/  width=530>
 
 <div><font size="+3"><b>＜基本情報＞</b></font></div>
 
