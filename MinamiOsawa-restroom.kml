@@ -13,27 +13,11 @@
 		<LabelStyle>
 			<color>ffff5500</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_caution">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_man0">
+	<Style id="sh_man20">
 		<IconStyle>
 			<color>ffff5500</color>
-			<scale>1.2</scale>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
 			</Icon>
@@ -41,29 +25,7 @@
 		<LabelStyle>
 			<color>ffff5500</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_caution">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_caution0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_caution0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_man">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_man">
 		<IconStyle>
 			<color>ffff5500</color>
@@ -75,9 +37,39 @@
 		<LabelStyle>
 			<color>ffff5500</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
+	<StyleMap id="msn_man">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_man0">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_man000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man20</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_caution">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -89,45 +81,37 @@
 		<LabelStyle>
 			<color>ff0000ff</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sh_man0">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_man1">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_man0">
+	<StyleMap id="msn_caution">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man</styleUrl>
+			<styleUrl>#sn_caution</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man</styleUrl>
+			<styleUrl>#sh_caution0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_caution0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_caution0">
@@ -141,8 +125,6 @@
 		<LabelStyle>
 			<color>ff0000ff</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_man1">
 		<IconStyle>
@@ -155,8 +137,6 @@
 		<LabelStyle>
 			<color>ffff5500</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_caution0">
 		<IconStyle>
@@ -169,43 +149,55 @@
 		<LabelStyle>
 			<color>ff0000ff</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_man1">
+	<StyleMap id="msn_man0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man0</styleUrl>
+			<styleUrl>#sn_man</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man1</styleUrl>
+			<styleUrl>#sh_man</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_caution0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_caution</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_caution</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sh_man0">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+
+	<ScreenOverlay>
+		<Icon>
+			<href>https://lh3.googleusercontent.com/_FvMKM9V2tQVMocSx8aJ4-WsKn4rTrSiveZBgC5jcyh0_Au62ULftzInrgL9ZxZqDDuMw3ZsX-yIfhEFQ00PPFdGOGjIVqsvaqQKjf6s_bH_K8H0sMZgMFUJm7PsceMro4hBZgZzRSFk_GDEQpxtKX72nml_QXRbQVTQR0653-NV5JePEGACR5QsDC878cVdYeDXa9rAGbO7p0QM8Okl1FBuWeTomSGSpiaNDqapI_r1A5-oi3iruTLCDNYTURSm_NRk_8TTlWLxLdphJ7P5A3D11ONmwi_3BNwAA06Ph7hqfEvuOb80Sajc2eIeIlA_dKfr2RddNVCMYryTrJkIVVkFMtt0y_e7wz-9fq3LSraoId31a5PCYX2tHJa3VSsRM8zhWmn34yInDJtPTkVmdJ42gS6mLzRWG8kJiznS4sXx6MqEXpCovznaS9ebCG8vI17WsCysv2qIyAz0MKEK3pE9OVyrWWSvL6WUmS3y7w6-3OPSkuvP2rqRpJErtxm4pV2roeLLnkoe7KbjdPJnuj5JEupxN5TyXuI7KWxDVBu05bbhU8Ge6YN_L7TSmJw_g2-IitgkErmY_milRLaYISlHNmMhnw=w1452-h386-no</href>
+		</Icon>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="551" y="148" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+
 	<Folder>
 		<name>MinamiOsawa-restroom</name>
+		<open>1</open>
 		<Placemark>
 			<name>パオレ</name>
-			<description>＜基本情報＞
-・４階（駅改札と同じ階層）：　
-小便器×３　個室×２
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-・低層５階（４階から階段で移動できる５階）：　
-小便器×３　個室×２
+<font size="+2">
+<div>・４階（駅改札と同じ階層）<br>小便器×３　個室×２</div>
+<div>・低層５階（４階から階段で移動できる５階）<br>小便器×３　個室×２</div>
+</font>
 
-＜説明＞
-フレンテ南大沢に次ぐ近さを誇る。こちらのトイレはフレンテ南大沢と比べ数が少ないものの、早朝から深夜まで割といつでも使えるのが大きなポイント。
-平日の昼間などは人が少ないものの、一転して休日等は、パレオ内のカラオケや飲み屋の客が頻繁に使用するため、意外と混んでいるので注意が必要。</description>
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">フレンテ南大沢に次ぐ近さを誇る。こちらのトイレはフレンテ南大沢と比べ数が少ないものの、早朝から深夜まで割といつでも使えるのが大きなポイント。<br>平日の昼間などは人が少ないものの、一転して休日等は、パレオ内のカラオケや飲み屋の客が頻繁に使用するため、意外と混んでいるので注意が必要。</font>]]></description>
 			<LookAt>
 				<longitude>139.37930619945</longitude>
 				<latitude>35.61484936198118</latitude>
@@ -215,7 +207,7 @@
 				<range>308.8085788226093</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_man000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3792426452369,35.61414682478864,0</coordinates>
@@ -223,16 +215,16 @@
 		</Placemark>
 		<Placemark>
 			<name>フレンテ南大沢</name>
-			<description>＜基本情報＞
-・3階：　
-小便器×３、　個室×３
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-・５階：　
-小便器×３、　個室×３
+<font size="+2">
+<div>・３階<br>小便器×３、　個室×３</div>
+<div>・５階<br>小便器×３、　個室×３</div>
+</font>
 
-＜説明＞
-駅の目の前に位置するため、駅のトイレが混雑した際に真っ先に候補に挙げるべき場所。しかし、３階と５階どちらのトイレも、フレンテ南大沢の営業時間内（１０：００～）しか利用できないため、朝の通勤ラッシュの際などには注意が必要。
-ご飯時や休日などは、中に入っているテナントの関係もあり一気に混雑するのでこちらも注意が必要。</description>
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">駅の目の前に位置するため、駅のトイレが混雑した際に真っ先に候補に挙げるべき場所。しかし、３階と５階どちらのトイレも、フレンテ南大沢の営業時間内（１０：００～）しか利用できないため、朝の通勤ラッシュの際などには注意が必要。<br>ご飯時や休日などは、中に入っているテナントの関係もあり一気に混雑するのでこちらも注意が必要。</font>]]></description>
 			<LookAt>
 				<longitude>139.3797821169536</longitude>
 				<latitude>35.61430905772641</latitude>
@@ -242,7 +234,7 @@
 				<range>323.5598580491175</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_man000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3795728214269,35.61394745070027,0</coordinates>
@@ -250,17 +242,19 @@
 		</Placemark>
 		<Placemark>
 			<name>南大沢駅</name>
-			<description>＜基本情報＞
-・改札内：
-小便器×４　個室×２
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-・２階（フレンテ南大沢）：
-小便器×０　個室×１
+<font size="+2">
+<div>・改札内<br>小便器×４　個室×２</div>
 
-＜説明＞
-駅周辺で腹痛に襲われた場合、周辺の地理に明るくない人であればもっとも最初に思い浮かべるであろう場所。しかし、改札内にあるため、駅の外に一歩でも出てしまえば、使うのが困難な上、通勤通学ラッシュ時などは非常に混雑する為、意外にも駅周辺のトイレの中では特に使いどころが難しい。
+<div>・２階（フレンテ南大沢）<br>小便器×０　個室×１<div>
+</font>
+
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">駅周辺で腹痛に襲われた場合、周辺の地理に明るくない人であればもっとも最初に思い浮かべるであろう場所。しかし、改札内にあるため、駅の外に一歩でも出てしまえば、使うのが困難な上、通勤通学ラッシュ時などは非常に混雑する為、意外にも駅周辺のトイレの中では特に使いどころが難しい。<br>
 ２階の奥には男女共用のバリアフリートイレが存在するが、本屋や喫茶店を利用している客が頻繁に使用している為、急いでいる人にはまずおすすめできない。
-</description>
+</font>]]></description>
 			<LookAt>
 				<longitude>139.3808438490545</longitude>
 				<latitude>35.61401046076175</latitude>
@@ -270,7 +264,7 @@
 				<range>416.8227758574791</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_man000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798795161858,35.61413242820479,0</coordinates>
@@ -278,14 +272,17 @@
 		</Placemark>
 		<Placemark>
 			<name>fab南大沢</name>
-			<description>＜基本情報＞
-・２階（駅より一つ下の階層）：
-小便器×４　個室×４
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-＜説明＞
-駅からかなり近いものの場所が分かりにくい為、隠れたオアシスである。
-立地の関係上、fab南大沢の２階に用事がある人以外はまず使わない上、テナントのほとんどが飲み屋関係なので、昼間に関していえば、待たなければ使用できないと言う事はほとんどない。
-場所がわかりにくい、と説明してはいるが、fab南大沢入口の階段を下りてすぐな為、知ってさえいれば行きやすい。駅周辺で突然の腹痛に襲われた場合、まずここに向かうことを強くおすすめする。</description>
+<font size="+2">
+<div>・２階（駅より一つ下の階層）<br>小便器×４　個室×４</div>
+</font>
+
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">駅からかなり近いものの場所が分かりにくい為、隠れたオアシスである。
+立地の関係上、fab南大沢の２階に用事がある人以外はまず使わない上、テナントのほとんどが飲み屋関係なので、昼間に関していえば、待たなければ使用できないと言う事はほとんどない。<br>
+場所がわかりにくい、と説明してはいるが、fab南大沢入口の階段を下りてすぐな為、知ってさえいれば行きやすい。駅周辺で突然の腹痛に襲われた場合、まずここに向かうことを強くおすすめする。]]></description>
 			<LookAt>
 				<longitude>139.3810535084134</longitude>
 				<latitude>35.61252543243059</latitude>
@@ -295,7 +292,7 @@
 				<range>662.0259133941288</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_man000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3797094782619,35.61439685224966,0</coordinates>
@@ -303,8 +300,9 @@
 		</Placemark>
 		<Placemark>
 			<name>セブンイレブン</name>
-			<description>＜要注意＞
-街中でトイレに行きたくなった際、コンビニエンスストアというのは割と良く候補に挙がる。しかし、南大沢駅前のセブンイレブンには、「お客様用トイレ」と言う物が存在しない。軽い気持ちでトイレを借りに行くと痛い目に合うので注意。</description>
+			<description><![CDATA[<div><font size="+3"><b>＜要注意＞</b></font></div>
+
+<font size="+2">街中でトイレに行きたくなった際、コンビニエンスストアというのは割と良く候補に挙がる。しかし、南大沢駅前のセブンイレブンには、「お客様用トイレ」と言う物が存在しない。<br>軽い気持ちでトイレを借りに行くと痛い目に合うので注意。</font>]]></description>
 			<LookAt>
 				<longitude>139.3805175886326</longitude>
 				<latitude>35.61468051262229</latitude>
@@ -322,12 +320,16 @@
 		</Placemark>
 		<Placemark>
 			<name>南大沢大橋自転車駐輪場</name>
-			<description>＜基本情報＞
-小便器×　　個室×
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-＜説明＞
-駅から少し歩いた所にある駐輪場に併設したトイレ。どの時間帯でもほとんど人がいない…がしかし、比較的新し建築物ばかりな駅前にしては珍しく、汚い。
-すぐ脇に喫煙スペースが設けられている関係上、夜になると一気にいかつい方々がトイレ周りにたむろするので、どうにも我慢できないとき以外は使わない方が賢明。</description>
+<font size="+2"><div>小便器×５　　個室×３</div></font>
+
+
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">駅から少し歩いた所にある駐輪場に併設したトイレ。<br>どの時間帯でもほとんど人がいない…がしかし、比較的新し建築物ばかりな駅前にしては珍しく、汚い。
+すぐ脇に喫煙スペースが設けられている関係上、夜になると一気にいかつい方々がトイレ周りにたむろするので、どうにも我慢できないとき以外は使わない方が賢明。
+</font>]]></description>
 			<LookAt>
 				<longitude>139.3803799296367</longitude>
 				<latitude>35.61461154674117</latitude>
@@ -337,7 +339,7 @@
 				<range>375.3670837753482</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man</styleUrl>
+			<styleUrl>#msn_man0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3808349533651,35.61422937046269,0</coordinates>
@@ -345,12 +347,18 @@
 		</Placemark>
 		<Placemark>
 			<name>サザンウインズ（ジアス）</name>
-			<description>＜基本情報＞
-小便器×０　個室（バリアフリー、男女共用）×１
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-＜説明＞
-おそらく南大沢駅周辺を活動圏内にしている人であっても、その存在を知る人はかなり少ないであろう隠れたトイレ。サザンウインズ内のジアス（パチンコ屋）やサイゼリア内のトイレとは別に、独立して存在している。
-入口からかなり奥まで入ったところにあり、関係者以外立ち入り禁止なのでは？と感じたりもするが、問題なく利用できる。サザンウインズ内のテナントが営業を開始する前から使用できるので、早朝にトイレを探している場合はおすすめ。しかし、どんなに人の来ることが少ないといってもゼロではない上、一つしかトイレがないので余裕がある内はほかのトイレも検討すべきである。</description>
+<font size="+2">
+<div>・１階<br>小便器×０　個室（バリアフリー、男女共用）×１</div>
+</font>
+
+
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">おそらく南大沢駅周辺を活動圏内にしている人であっても、その存在を知る人はかなり少ないであろう隠れたトイレ。サザンウインズ内のジアス（パチンコ屋）やサイゼリア内のトイレとは別に、独立して存在している。<br>
+入口からかなり奥まで入ったところにあり、関係者以外立ち入り禁止なのでは？と感じたりもするが、問題なく利用できる。サザンウインズ内のテナントが営業を開始する前から使用できるので、早朝にトイレを探している場合はおすすめ。しかし、どんなに人の来ることが少ないといってもゼロではない上、一つしかトイレがないので余裕がある内はほかのトイレも検討すべきである。
+</font>]]></description>
 			<LookAt>
 				<longitude>139.3807659488661</longitude>
 				<latitude>35.61468803860356</latitude>
@@ -360,7 +368,7 @@
 				<range>375.6104790553872</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man</styleUrl>
+			<styleUrl>#msn_man0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3809699523691,35.61410323136392,0</coordinates>
@@ -368,10 +376,12 @@
 		</Placemark>
 		<Placemark>
 			<name>交番</name>
-			<description>＜要注意＞
-お巡りさんがいるあの交番である。
-トイレを探している時に交番というのはまず候補に挙がらないだろう。しかしながら、本当に体調がすぐれない、どうにもならない、といったときであればぜひとも検討すべきである。よほどのことがなければ貸してくれるはずである。
-最近では、トイレを貸さないと明言している交番もあるらしいので、どうにもならないとき以外は頼らないのが賢明。</description>
+			<description><![CDATA[<div><font size="+3"><b>＜要注意＞</b></font></div>
+
+<font size="+2">お巡りさんがいるあの交番である。<br>
+トイレを探している時に交番というのはまず候補に挙がらないだろう。しかしながら、本当に体調がすぐれない、どうにもならない、といったときであればぜひとも検討すべきである。よほどのことがなければ貸してくれるはずである。<br>
+最近では、トイレを貸さないと明言している交番もあるらしいので、どうにもならないとき以外は頼らないのが賢明。
+</font>]]></description>
 			<LookAt>
 				<longitude>139.3807834332105</longitude>
 				<latitude>35.61461423572766</latitude>
@@ -389,14 +399,17 @@
 		</Placemark>
 		<Placemark>
 			<name>イトーヨーカ堂</name>
-			<description>＜基本情報＞
-・１階～４階
-各々　小便器×３　個室×２
+			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
-＜説明＞
-駅周辺でも特に大きい商業施設であるため、トイレを探している人であれば真っ先に目をつけるかもしれない。しかし、各階のトイレはその施設の規模に反し、お隣のフレンテ南大沢より少なかったりする。
-１日を通して利用客も多い為、割と込みやすい。さらに休日は家族ずれで賑わうのでその比ではなくなる。
-店内で買い物中に腹痛に襲われたのなら話は別だが、基本的には他のトイレを検討すべきだろう。</description>
+<font size="+2">
+<div>・１階～５階<br>各々　小便器×３　個室×２</div>
+</font>
+
+<div><font size="+3"><b>＜説明＞</b></font></div>
+
+<font size="+2">駅周辺でも特に大きい商業施設であるため、トイレを探している人であれば真っ先に目をつけるかもしれない。しかし、各階のトイレはその施設の規模に反し、お隣のフレンテ南大沢より少なかったりする。<br>
+１日を通して利用客も多い為、割と込みやすい。さらに休日は家族ずれで賑わうのでその比ではなくなる。<br>
+店内で買い物中に腹痛に襲われたのなら話は別だが、基本的には他のトイレを検討すべきだろう。</font>]]></description>
 			<LookAt>
 				<longitude>139.3798424835677</longitude>
 				<latitude>35.61455575289736</latitude>
@@ -406,7 +419,7 @@
 				<range>361.4893663717321</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man1</styleUrl>
+			<styleUrl>#msn_man</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798993583356,35.61351250189176,0</coordinates>
