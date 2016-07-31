@@ -2,64 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>MinamiOsawa-restroom.kml</name>
-	<Style id="sn_man">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_man20">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_man">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_man">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_man0">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
 	<StyleMap id="msn_man000">
 		<Pair>
 			<key>normal</key>
@@ -80,6 +22,112 @@
 		</IconStyle>
 		<LabelStyle>
 			<color>ff0000ff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_caution0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_caution0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_man1">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_man0">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_man20">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_man0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_man">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_man0">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_man">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff5500</color>
 		</LabelStyle>
 	</Style>
 	<StyleMap id="msn_caution">
@@ -114,65 +162,16 @@
 			<styleUrl>#sh_caution</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_caution0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_man1">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_caution0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_man0">
+	<StyleMap id="msn_man">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man</styleUrl>
+			<styleUrl>#sn_man1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man</styleUrl>
+			<styleUrl>#sh_man0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_man0">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-
 	<ScreenOverlay>
 		<Icon>
 			<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
@@ -182,7 +181,6 @@
 		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		<size x="551" y="148" xunits="pixels" yunits="pixels"/>
 	</ScreenOverlay>
-
 	<Folder>
 		<name>MinamiOsawa-restroom</name>
 		<open>1</open>
