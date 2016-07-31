@@ -2,7 +2,6 @@
   "use strict";
 
   var viewer = new Cesium.Viewer("cesium",{
-    baseLayerPicker : false,
     timeline : false,
     animation : false
   });
