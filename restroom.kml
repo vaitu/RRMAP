@@ -3,19 +3,6 @@
 <Document>
 	<name>MinamiOsawa-restroom.kml</name>
 	<open>1</open>
-	<Style id="sh_icon-restroom0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffffb065</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sn_icon-restroom0">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -26,8 +13,17 @@
 		<LabelStyle>
 			<color>ffffb065</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="sh_icon-restroom0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffb065</color>
+		</LabelStyle>
 	</Style>
 	<StyleMap id="msn_icon-restroom0">
 		<Pair>
@@ -39,18 +35,7 @@
 			<styleUrl>#sh_icon-restroom0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_icon-restroom00">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffffb065</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_icon-restroom00">
+	<Style id="sh_icon-restroom">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -61,16 +46,27 @@
 			<color>ffffb065</color>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_icon-restroom00">
+	<StyleMap id="msn_icon-restroom">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_icon-restroom00</styleUrl>
+			<styleUrl>#sn_icon-restroom</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_icon-restroom00</styleUrl>
+			<styleUrl>#sh_icon-restroom</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_icon-restroom">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffb065</color>
+		</LabelStyle>
+	</Style>
 	<ScreenOverlay>
 		<Icon>
 			<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
@@ -248,7 +244,7 @@
 				<range>375.3670837753482</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom00</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3808349533651,35.61422937046269,0</coordinates>
@@ -279,10 +275,10 @@
 				<range>375.6104790553872</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom00</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.3809699523691,35.61410323136392,0</coordinates>
+				<coordinates>139.3809694444445,35.61410323136392,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -341,5 +337,35 @@
 			</Point>
 		</Placemark>
 	</Folder>
+	<GroundOverlay>
+		<name>無題 - イメージ オーバーレイ</name>
+		<Icon>
+			<href>https://vaitu.github.io/RRMAP/img/100m.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<altitude>130</altitude>
+		<altitudeMode>absolute</altitudeMode>
+		<LatLonBox>
+			<north>35.61486944444444</north>
+			<south>35.61321944444445</south>
+			<east>139.3809694444445</east>
+			<west>139.378775</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>無題 - イメージ オーバーレイ</name>
+		<Icon>
+			<href>https://vaitu.github.io/RRMAP/img/50m.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<altitude>130</altitude>
+		<altitudeMode>absolute</altitudeMode>
+		<LatLonBox>
+			<north>35.61441111111111</north>
+			<south>35.61356388888889</south>
+			<east>139.3804416666667</east>
+			<west>139.3793305555556</west>
+		</LatLonBox>
+	</GroundOverlay>
 </Document>
 </kml>
