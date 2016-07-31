@@ -35,18 +35,46 @@
 			<color>ffffb065</color>
 		</LabelStyle>
 	</Style>
-	<ScreenOverlay>
-		<Icon>
-			<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
-		</Icon>
-		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
-		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
-		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		<size x="551" y="148" xunits="pixels" yunits="pixels"/>
-	</ScreenOverlay>
 	<Folder>
 		<name>MinamiOsawa-restroom</name>
 		<open>1</open>
+		<GroundOverlay>
+			<name>無題 - イメージ オーバーレイ</name>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/50m.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<altitude>130</altitude>
+			<LatLonBox>
+				<north>35.61441111111111</north>
+				<south>35.61356388888889</south>
+				<east>139.3804416666667</east>
+				<west>139.3793305555556</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>無題 - イメージ オーバーレイ</name>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/100m.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<altitude>130</altitude>
+			<LatLonBox>
+				<north>35.61486944444444</north>
+				<south>35.61321944444445</south>
+				<east>139.3809694444445</east>
+				<west>139.378775</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<ScreenOverlay>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
+			</Icon>
+			<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+			<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+			<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<size x="551" y="148" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
 		<Placemark>
 			<name>パオレ</name>
 			<description><![CDATA[<img src="https://lh3.googleusercontent.com/rHRCRwr_4nGfZqjirQqtRTZxs17KWt4xYSoY_dLnCo62W6mSdrz-o1sp-IYKEBTu8f5v1swYPl2qKey0u3axWAn0TPfQaeIGjWssb5abyQKFi9PV_DoxTWVvXmwWBtV9SbATfkB--_n5haJht-wFSgPS5l8NBA80Z4DlpErp1iI7PRCjXWZzfVZoATg-EayrIh8V5IAp96IRcHS8HGGSSwYk3H2EBlrzdXjb1pDDsRmwgOX0R7tLt3FVrnFX6042DBmAw4JYb-OdrI6gFNLotvT6pLOJEAcXla9MW-8NDTJWXgsqsMtmnErYvk0oafjNy33WFtD5HC-g_47Haa3IkNRNaABTtv7y7bIEuRn7mpdVlG31aflf5pn4Mmokd3EHI09tqlYaMhq5-dR2QOvsREg3IlaiIBRC_JQJHc3O2yzpfl2EToBAEXkaRAMJYBTPXShkqMl68J6Urj-vKtxoV4LBnjrbWF6pKKWE7oVIyd1WRC790UoKKMgHCjvsLhlxeoi4X2_gRKj9haKwMrtuUsnxhrnyoqdAW3XFZ30VTmleaX9-Jbv6yaBTP4Pi96mPb-61T21Sd3ch3tqmTyuWBO0vaXJrG7E=s401-no"/>
@@ -302,33 +330,5 @@
 			</Point>
 		</Placemark>
 	</Folder>
-	<GroundOverlay>
-		<name>無題 - イメージ オーバーレイ</name>
-		<Icon>
-			<href>https://vaitu.github.io/RRMAP/img/100m.png</href>
-			<viewBoundScale>0.75</viewBoundScale>
-		</Icon>
-		<altitude>130</altitude>
-		<LatLonBox>
-			<north>35.61486944444444</north>
-			<south>35.61321944444445</south>
-			<east>139.3809694444445</east>
-			<west>139.378775</west>
-		</LatLonBox>
-	</GroundOverlay>
-	<GroundOverlay>
-		<name>無題 - イメージ オーバーレイ</name>
-		<Icon>
-			<href>https://vaitu.github.io/RRMAP/img/50m.png</href>
-			<viewBoundScale>0.75</viewBoundScale>
-		</Icon>
-		<altitude>130</altitude>
-		<LatLonBox>
-			<north>35.61441111111111</north>
-			<south>35.61356388888889</south>
-			<east>139.3804416666667</east>
-			<west>139.3793305555556</west>
-		</LatLonBox>
-	</GroundOverlay>
 </Document>
 </kml>
