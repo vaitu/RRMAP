@@ -171,7 +171,7 @@
 		</Placemark>
 		<Placemark>
 			<name>fab南大沢</name>
-			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0080.png"/  width=530>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/gMvjM1j_P1Fdq3GYNau_Tu9UXUTlB6pqrfqbLaKv69j6I7v0Cu8EMSSj31GSPLcMIF79BY1crSlKneRJSYW_9T9smY0wF64q8Eg9_9_ynGO5X7SdXO0Bd7F_er3_IjNQep5a_OHCZfTfvemOzEIzhKmC_WdysOc2TA-f6waa74Ts0FHL1lH1Ptgh21j8XZwSvaZslKZQFkF6QWlxyKZrYzDh5u6QtXBNc-YokmRQewgN__mxykDH2OOND3fcruOCFJpPSmcvLFVWe8u1e_nzIrnQMnuBd-x1f9pK2hjA2dc9CdJh-pVc9Kv0ul0UV1-X1kMVbOPQogGv2iQMgis9_MBxYVtNvVf7xDzNGXhfrpT_bCTJtKLVSfcMQtE6ErYFi7_eHY-6-0bF8oOnBocYbXFywh0hX7ddysFna9alYewONzLWXWvTCr-OdnYNP8XyaSA4KBlb6rKCXGVtBfKYKCDQSxDW0WPcXF2rBaWFUkcg7ceggdb1tTKN4iEcyXPtzQ6OyC0aMJiayOmc0y-jUV64FKHUXo0cVwTsWhSICEaHGkWm0jyuy4wFpB50PUAL9GEl0pK1-DE1FJGkENkRybwsZFGC_-A=w390-h391-no"/  width=530>
 
 <div><font size="+3"><b>＜基本情報＞</b></font></div>
 
@@ -193,7 +193,7 @@
 				<range>662.0259133941288</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3797094782619,35.61439685224966,0</coordinates>
