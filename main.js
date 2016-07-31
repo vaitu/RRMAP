@@ -20,8 +20,8 @@ var leftOffset = Math.floor((Math.random() * 201) - 100);
 
 img.style.width = '500px';
 img.style.position = 'absolute';
-img.style.top = '50px';
-img.style.left = '50px';
+img.style.top = '25px';
+img.style.left = '25px';
 img.style['pointer-events'] = 'none';
 
 //-------------------------------------------------------------------------------
