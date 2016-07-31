@@ -283,7 +283,7 @@
 		</Placemark>
 		<Placemark>
 			<name>交番</name>
-			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0075.png"/  width=500>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0075.png"/ >
 
 <div><font size="+3"><b>＜要注意＞</b></font></div>
 
@@ -300,7 +300,7 @@
 				<range>433.4865303525304</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3804476790666,35.61325441565739,0</coordinates>
