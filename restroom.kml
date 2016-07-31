@@ -344,7 +344,6 @@
 			<viewBoundScale>0.75</viewBoundScale>
 		</Icon>
 		<altitude>130</altitude>
-		<altitudeMode>absolute</altitudeMode>
 		<LatLonBox>
 			<north>35.61486944444444</north>
 			<south>35.61321944444445</south>
@@ -359,7 +358,6 @@
 			<viewBoundScale>0.75</viewBoundScale>
 		</Icon>
 		<altitude>130</altitude>
-		<altitudeMode>absolute</altitudeMode>
 		<LatLonBox>
 			<north>35.61441111111111</north>
 			<south>35.61356388888889</south>
