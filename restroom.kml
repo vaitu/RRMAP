@@ -2,176 +2,43 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>MinamiOsawa-restroom.kml</name>
-	<StyleMap id="msn_man000">
+	<open>1</open>
+	<StyleMap id="msn_icon-restroom">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man0</styleUrl>
+			<styleUrl>#sn_icon-restroom</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man20</styleUrl>
+			<styleUrl>#sh_icon-restroom</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_caution">
+	<Style id="sh_icon-restroom">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff0000ff</color>
+			<color>ffffb065</color>
 		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sn_caution0">
+	<Style id="sn_icon-restroom">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_caution0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_man1">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ffff5500</color>
+			<color>ffffb065</color>
 		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_man0">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_man20">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_man0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_man">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_man0">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_man">
-		<IconStyle>
-			<color>ffff5500</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffff5500</color>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_caution">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_caution</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_caution0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_caution">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff0000ff</color>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_caution0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_caution0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_caution</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_man">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<ScreenOverlay>
 		<Icon>
 			<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
@@ -205,7 +72,7 @@
 				<range>308.8085788226093</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man000</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3792426452369,35.61414682478864,0</coordinates>
@@ -232,7 +99,7 @@
 				<range>323.5598580491175</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man000</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3795728214269,35.61394745070027,0</coordinates>
@@ -262,7 +129,7 @@
 				<range>416.8227758574791</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man000</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798795161858,35.61413242820479,0</coordinates>
@@ -290,7 +157,7 @@
 				<range>662.0259133941288</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man000</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3797094782619,35.61439685224966,0</coordinates>
@@ -310,7 +177,7 @@
 				<range>461.5573468235069</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3804406649817,35.61405149264422,0</coordinates>
@@ -337,7 +204,7 @@
 				<range>375.3670837753482</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3808349533651,35.61422937046269,0</coordinates>
@@ -366,7 +233,7 @@
 				<range>375.6104790553872</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3809699523691,35.61410323136392,0</coordinates>
@@ -389,7 +256,7 @@
 				<range>433.4865303525304</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3804476790666,35.61325441565739,0</coordinates>
@@ -417,7 +284,7 @@
 				<range>361.4893663717321</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_man</styleUrl>
+			<styleUrl>#msn_icon-restroom</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798993583356,35.61351250189176,0</coordinates>
