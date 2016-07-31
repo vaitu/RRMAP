@@ -3,17 +3,7 @@
 <Document>
 	<name>MinamiOsawa-restroom.kml</name>
 	<open>1</open>
-	<StyleMap id="msn_icon-restroom">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_icon-restroom</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_icon-restroom</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_icon-restroom">
+	<Style id="sh_icon-restroom0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -26,7 +16,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_icon-restroom">
+	<Style id="sn_icon-restroom0">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -39,6 +29,48 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_icon-restroom0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon-restroom0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon-restroom0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon-restroom00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffb065</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_icon-restroom00">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://vaitu.github.io/RRMAP/img/icon-restroom.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffb065</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_icon-restroom00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon-restroom00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon-restroom00</styleUrl>
+		</Pair>
+	</StyleMap>
 	<ScreenOverlay>
 		<Icon>
 			<href>https://vaitu.github.io/RRMAP/img/RRMAP-icon.png</href>
@@ -53,7 +85,9 @@
 		<open>1</open>
 		<Placemark>
 			<name>パオレ</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0079.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・４階（駅改札と同じ階層）<br>小便器×３　個室×２</div>
@@ -72,7 +106,7 @@
 				<range>308.8085788226093</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3792426452369,35.61414682478864,0</coordinates>
@@ -80,7 +114,9 @@
 		</Placemark>
 		<Placemark>
 			<name>フレンテ南大沢</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0078.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・３階<br>小便器×３、　個室×３</div>
@@ -99,7 +135,7 @@
 				<range>323.5598580491175</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3795728214269,35.61394745070027,0</coordinates>
@@ -107,7 +143,9 @@
 		</Placemark>
 		<Placemark>
 			<name>南大沢駅</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0077.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・改札内<br>小便器×４　個室×２</div>
@@ -129,7 +167,7 @@
 				<range>416.8227758574791</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798795161858,35.61413242820479,0</coordinates>
@@ -137,7 +175,9 @@
 		</Placemark>
 		<Placemark>
 			<name>fab南大沢</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0080.png"/  width=530>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・２階（駅より一つ下の階層）<br>小便器×４　個室×４</div>
@@ -157,7 +197,7 @@
 				<range>662.0259133941288</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3797094782619,35.61439685224966,0</coordinates>
@@ -165,7 +205,9 @@
 		</Placemark>
 		<Placemark>
 			<name>セブンイレブン</name>
-			<description><![CDATA[<div><font size="+3"><b>＜要注意＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0073.png"/  width = 515>
+
+<div><font size="+3"><b>＜要注意＞</b></font></div>
 
 <font size="+2">街中でトイレに行きたくなった際、コンビニエンスストアというのは割と良く候補に挙がる。しかし、南大沢駅前のセブンイレブンには、「お客様用トイレ」と言う物が存在しない。<br>軽い気持ちでトイレを借りに行くと痛い目に合うので注意。</font>]]></description>
 			<LookAt>
@@ -177,7 +219,7 @@
 				<range>461.5573468235069</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3804406649817,35.61405149264422,0</coordinates>
@@ -185,7 +227,9 @@
 		</Placemark>
 		<Placemark>
 			<name>南大沢大橋自転車駐輪場</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0071.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2"><div>小便器×５　　個室×３</div></font>
 
@@ -204,7 +248,7 @@
 				<range>375.3670837753482</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3808349533651,35.61422937046269,0</coordinates>
@@ -212,7 +256,9 @@
 		</Placemark>
 		<Placemark>
 			<name>サザンウインズ（ジアス）</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0072.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・１階<br>小便器×０　個室（バリアフリー、男女共用）×１</div>
@@ -233,7 +279,7 @@
 				<range>375.6104790553872</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3809699523691,35.61410323136392,0</coordinates>
@@ -241,7 +287,9 @@
 		</Placemark>
 		<Placemark>
 			<name>交番</name>
-			<description><![CDATA[<div><font size="+3"><b>＜要注意＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0075.png"/  width=500>
+
+<div><font size="+3"><b>＜要注意＞</b></font></div>
 
 <font size="+2">お巡りさんがいるあの交番である。<br>
 トイレを探している時に交番というのはまず候補に挙がらないだろう。しかしながら、本当に体調がすぐれない、どうにもならない、といったときであればぜひとも検討すべきである。よほどのことがなければ貸してくれるはずである。<br>
@@ -256,7 +304,7 @@
 				<range>433.4865303525304</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3804476790666,35.61325441565739,0</coordinates>
@@ -264,7 +312,9 @@
 		</Placemark>
 		<Placemark>
 			<name>イトーヨーカ堂</name>
-			<description><![CDATA[<div><font size="+3"><b>＜基本情報＞</b></font></div>
+			<description><![CDATA[<img src="https://vaitu.github.io/RRMAP/img/DSC_0076.png"/  width=550>
+
+<div><font size="+3"><b>＜基本情報＞</b></font></div>
 
 <font size="+2">
 <div>・１階～５階<br>各々　小便器×３　個室×２</div>
@@ -284,7 +334,7 @@
 				<range>361.4893663717321</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_icon-restroom</styleUrl>
+			<styleUrl>#msn_icon-restroom0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.3798993583356,35.61351250189176,0</coordinates>
